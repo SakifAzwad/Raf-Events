@@ -1,148 +1,160 @@
 [
-    {
-      "id": 1,
-      "event": "Wedding Planning",
-      "img":"https://i.ibb.co/bdmfNsX/floral-garland-eucalyptus-pink-flowers-lies-table.jpg",
-      "homedesc":"Experience the wedding of your dreams with our expert Wedding Planning services.",
-       "startprice":2500,
-      "packages": [
-        {
-          "name": "Elegant Essentials",
-            "price":2500,
-          "shortDescription": "Our 'Elegant Weddings' package is designed to turn your wedding day into a timeless and unforgettable celebration of love. We understand that your wedding is one of the most important days of your life, and we're here to ensure that every moment is filled with joy, beauty, and cherished memories.",
-          "longDescription": "Our Elegant Essentials package is designed for couples who want a beautiful and stress-free wedding experience. We handle venue selection, decor, and coordination, ensuring your special day goes off without a hitch."
-        },
-        {
-          "name": "Luxury Romance",
-          "shortDescription": "Experience the epitome of luxury and romance with our 'Luxury Romance' wedding package. Designed for couples who desire nothing but the best, this package is a symphony of opulence, elegance, and personalized service. We understand that your wedding day should be a reflection of your unique love story, and with 'Luxury Romance,' we go above and beyond to make your dreams come true.",
-          "longDescription": "Indulge in luxury with our Luxury Romance package. We create a wedding that reflects your unique style and love story. From custom decor to gourmet catering, every detail is designed to make your day unforgettable."
-        },
-        {
-          "name": "Destination Dreams",
-          "shortDescription": "Turn your dream destination wedding into reality.",
-          "longDescription": "Escape to your dream destination with our Destination Dreams package. Whether it's a beachfront wedding or a mountaintop celebration, we handle all the details, so you can focus on your love and your guests."
-        }
-      ]
+  {
+    "id": 1,
+    "event": "Wedding Planning",
+    "img": "https://i.ibb.co/bdmfNsX/floral-garland-eucalyptus-pink-flowers-lies-table.jpg",
+    "eventdesc": "At Raf Events, we believe that your wedding day should be nothing short of a fairytale come true. Our wedding planning services are designed to turn your dreams into a breathtaking reality. With meticulous attention to detail and a passion for perfection, we craft weddings that reflect your unique love story.Our dedicated team of wedding planners takes care of every aspect, from venue selection and décor to catering and entertainment, ensuring that your special day is a seamless and joyous experience. Whether you envision an intimate garden wedding or a lavish ballroom affair, we bring your vision to life, creating an atmosphere that leaves you and your guests enchanted.With Raf Events, you will have a partner who understands that every couple is unique. We tailor our services to your preferences, making your wedding a true reflection of your style and personality. Your journey toward a lifetime of love begins with a celebration crafted by Raf Events, a day you will cherish forever.",
+    "homedesc": "Experience the wedding of your dreams with our expert Wedding Planning services.",
+    "startprice": 2500,
+    "packages": [
+      {
+        "name": "Elegant Essentials",
+        "packprice": 2500,
+        "longDescription": "Our Elegant Essentials package is designed for couples who want a beautiful and stress-free wedding experience. We handle venue selection, decor, and coordination, ensuring your special day goes off without a hitch."
+      },
+      {
+        "name": "Luxury Romance",
+        "packprice": 5000,
+        "longDescription": "Indulge in luxury with our Luxury Romance package. We create a wedding that reflects your unique style and love story. From custom decor to gourmet catering, every detail is designed to make your day unforgettable."
+      },
+      {
+        "name": "Destination Dreams",
+        "packprice": 7500,
+        "longDescription": "Escape to your dream destination with our Destination Dreams package. Whether it's a beachfront wedding or a mountaintop celebration, we handle all the details, so you can focus on your love and your guests."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "event": "Birthday Party Planning",
+    "img": "https://i.ibb.co/CBf2Fq3/lovely-birthday-concept-with-chocolate-cake.jpg",
+    "eventdesc": "Raf Events understands that birthdays are more than just milestones; they're cherished moments filled with laughter, joy, and love. Our birthday party planning services are dedicated to creating unforgettable celebrations that bring your dreams to life.From the grandest of bashes to intimate gatherings, we approach each birthday with creativity and meticulous attention to detail. We work closely with you to capture your vision, ensuring that every element – from theme selection and decor to entertainment and catering – reflects your unique personality and style.Our team of experienced planners takes the stress out of party planning, allowing you to fully enjoy the day with your loved ones. Whether it's a child's whimsical birthday adventure, a teenager's trendy bash, or an adult's milestone celebration, Raf Events is committed to making each moment exceptional.With us by your side, your birthday party becomes a cherished memory, filled with laughter and love. Let us turn your ideas into reality and celebrate your special day the Raf Events way",
+    "homedesc": "Make every birthday unforgettable and full of surprises with our Birthday Party Planning services.",
+    "startprice": 500,
+    "packages": [
+      {
+        "name": "Fun Fête",
+        "packprice": 500,
+        "longDescription": "Our Fun Fête package is perfect for creating a joyful and entertaining birthday party. We provide exciting games, colorful decor, and entertainment options for both kids and adults."
+      },
+      {
+        "name": "Theme Extravaganza",
+        "packprice":750,
+        "longDescription": "Make your birthday unforgettable with our Theme Extravaganza package. Select from a wide range of themes, and we'll create a magical world of decorations, costumes, and entertainment."
+      },
+      {
+        "name": "VIP Birthday Bash",
+        "packprice": 1000,
+        "longDescription": "Go all out with our VIP Birthday Bash. Roll out the red carpet, enjoy celebrity-style decor, and treat your guests to exclusive experiences that will make this birthday one to remember."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "event": "Anniversary Celebration",
+    "img": "https://i.ibb.co/KwCnnT1/cheerful-couple-with-sparkler-flirting.jpg",
+    "eventdesc": "At Raf Events, we recognize that anniversaries are a testament to enduring love and cherished moments. Our anniversary celebration planning services are devoted to commemorating your journey of love with elegance and grace.Whether you're celebrating one year or fifty, we specialize in creating anniversary celebrations that capture the essence of your relationship. Our expert team collaborates closely with you to curate a bespoke experience, reflecting your unique story and love story.From intimate gatherings to grand soirées, we handle every aspect of planning, from venue selection and décor to exquisite dining and entertainment. Our meticulous attention to detail ensures that your celebration is a seamless, memorable event.At Raf Events, we believe that anniversaries are a time to reflect on the beautiful moments you've shared and look forward to the ones yet to come. Let us transform your anniversary celebration into an unforgettable experience that rekindles the romance and creates new memories to cherish for years to come.",
+    "homedesc": "Commemorate your love and journey together with our Anniversary Celebration Planning services.",
+    "startprice": 750,
+    "packages": [
+      {
+        "name": "Intimate Memories",
+        "packprice": 750,
+        "longDescription": "Create cherished memories with our Intimate Memories package. We specialize in crafting romantic and intimate anniversary celebrations with personalized decor and ambiance."
+      },
+      {
+        "name": "Silver Jubilee Spectacular",
+        "packprice": 1500,
+        "longDescription": "Celebrate your silver jubilee in style with our Silver Jubilee Spectacular package. It includes elegant decor, live music, and gourmet dining to mark this significant milestone."
+      },
+      {
+        "name": "Golden Anniversary Extravaganza",
+        "packprice": 3000,
+        "longDescription": "For your golden anniversary, choose our extravagant package. Featuring grand decor, top-notch entertainment, and luxury experiences, it's the perfect way to celebrate 50 years of love."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "event": "Holiday Party Planning",
+    "img": "https://i.ibb.co/XF03gY2/women-preparing-festive-table.jpg",
+    "eventdesc": "At Raf Events, we understand that holiday gatherings are more than just parties; they're cherished moments where friends and family come together in the spirit of joy and celebration. Our holiday party planning services are dedicated to curating extraordinary events that capture the magic of the season.Whether you're hosting a festive Christmas gala, a sparkling New Year's Eve soirée, or a themed holiday celebration, we infuse every detail with warmth and merriment. From elegant decor and culinary delights to entertainment that sparkles with excitement, our experienced team ensures that your holiday party is nothing short of spectacular.We take pride in crafting a holiday ambiance that mirrors your vision, creating an atmosphere where cherished memories are made. With Raf Events by your side, you can relax and enjoy the festivities, knowing that every element has been carefully orchestrated.Let us transform your holiday party into a magical experience that brings the spirit of the season to life, leaving your guests with hearts full of joy and memories to treasure for years to come.",
+    "homedesc": "Spread holiday cheer and create lasting memories with our Holiday Party Planning services.",
+    "startprice": 500,
+    "packages": [
+      {
+        "name": "Festive Gatherings",
+        "packprice": 500,
+        "longDescription": "Celebrate the holidays with our Festive Gatherings package. We provide themed decor and holiday entertainment for a joyful holiday season."
+      },
+      {
+        "name": "New Year's Eve Spectacular",
+    "packprice": 1000 ,
+        "longDescription": "Count down to the New Year with our New Year's Eve Spectacular. Enjoy live music, fireworks, and a night of unforgettable celebrations."
+         
     },
-    {
-      "id": 2,
-      "event": "Birthday Party Planning",
-      "img":"https://i.ibb.co/CBf2Fq3/lovely-birthday-concept-with-chocolate-cake.jpg",
-      "homedesc":"Make every birthday unforgettable and full of surprises with our Birthday Party Planning services.",
-      "startprice":500,
-      "packages": [
-        {
-          "name": "Fun Fête",
-          "shortDescription": "Create a fun-filled birthday celebration for all ages.",
-          "longDescription": "Our Fun Fête package is perfect for creating a joyful and entertaining birthday party. We provide exciting games, colorful decor, and entertainment options for both kids and adults."
-        },
-        {
-          "name": "Theme Extravaganza",
-          "shortDescription": "Choose a themed birthday party for a unique experience.",
-          "longDescription": "Make your birthday unforgettable with our Theme Extravaganza package. Select from a wide range of themes, and we'll create a magical world of decorations, costumes, and entertainment."
-        },
-        {
-          "name": "VIP Birthday Bash",
-          "shortDescription": "Elevate the celebration with our VIP package.",
-          "longDescription": "Go all out with our VIP Birthday Bash. Roll out the red carpet, enjoy celebrity-style decor, and treat your guests to exclusive experiences that will make this birthday one to remember."
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "event": "Anniversary Celebration",
-      "img":"https://i.ibb.co/KwCnnT1/cheerful-couple-with-sparkler-flirting.jpg",
-      "homedesc":"Commemorate your love and journey together with our Anniversary Celebration Planning services.",
-       "startprice":750,
-      "packages": [
-        {
-          "name": "Intimate Memories",
-          "shortDescription": "Celebrate your love with an intimate anniversary gathering.",
-          "longDescription": "Create cherished memories with our Intimate Memories package. We specialize in crafting romantic and intimate anniversary celebrations with personalized decor and ambiance."
-        },
-        {
-          "name": "Silver Jubilee Spectacular",
-          "shortDescription": "Commemorate 25 years of love with an elegant celebration.",
-          "longDescription": "Celebrate your silver jubilee in style with our Silver Jubilee Spectacular package. It includes elegant decor, live music, and gourmet dining to mark this significant milestone."
-        },
-        {
-          "name": "Golden Anniversary Extravaganza",
-          "shortDescription": "Celebrate your golden anniversary with grandeur.",
-          "longDescription": "For your golden anniversary, choose our extravagant package. Featuring grand decor, top-notch entertainment, and luxury experiences, it's the perfect way to celebrate 50 years of love."
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "event": "Holiday Party Planning",
-      "img":"https://i.ibb.co/XF03gY2/women-preparing-festive-table.jpg",
-      "homedesc":"Spread holiday cheer and create lasting memories with our Holiday Party Planning services.",
-      "startprice":500,
-      "packages": [
-        {
-          "name": "Festive Gatherings",
-          "shortDescription": "Host festive holiday gatherings with themed decor.",
-          "longDescription": "Celebrate the holidays with our Festive Gatherings package. We provide themed decor and holiday entertainment for a joyful holiday season."
-        },
-        {
-          "name": "New Year's Eve Spectacular",
-          "shortDescription": "Ring in the New Year with a spectacular event.",
-          "longDescription": "Count down to the New Year with our New Year's Eve Spectacular. Enjoy live music, fireworks, and a night of unforgettable celebrations."
-        },
-        {
-          "name": "Holiday Extravaganza",
-          "shortDescription": "Create holiday magic with winter wonderland decor.",
-          "longDescription": "Experience holiday magic with our Holiday Extravaganza package. We transform your venue into a winter wonderland with seasonal decor and delights."
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "event": "Baby Shower Planning",
-      "img":"https://i.ibb.co/bHZ4HSt/beautiful-baby-shower-concept-with-copy-space.jpg",
-      "homedesc":"Celebrate the upcoming arrival of your little one with our Baby Shower Planning services.",
-      "startprice":500,
-      "packages": [
-        {
-          "name": "Joyful Beginnings",
-          "shortDescription": "Celebrate the arrival of your little one with a joyful baby shower.",
-          "longDescription": "Our Joyful Beginnings package is perfect for celebrating the arrival of your baby. We provide decor, games, and sweet treats for a memorable baby shower."
-        },
-        {
-          "name": "Themed Baby Bash",
-          "shortDescription": "Choose a themed baby shower for a unique celebration.",
-          "longDescription": "Make your baby shower unique with our Themed Baby Bash package. Select from a variety of themes and enjoy customized favors and entertainment."
-        },
-        {
-          "name": "Luxury Baby Shower",
-          "shortDescription": "Indulge in luxury with our premium baby shower package.",
-          "longDescription": "Indulge in luxury with our Luxury Baby Shower package. It includes premium decor, gourmet catering, and spa treatments for the mom-to-be, ensuring an elegant and pampering experience."
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "event": "Graduation Party Planning",
-      "img":"https://i.ibb.co/cyGFQXK/closeup-shot-elegant-blue-chairs-wedding-venue.jpg",
-      "homedesc":"Honor academic achievements and celebrate milestones with our Graduation Party Planning services.",
-      "startprice":750,
-      "packages": [
-        {
-          "name": "Graduate's Delight",
-          "shortDescription": "Celebrate your graduate's achievements with a delightful party.",
-          "longDescription": "Celebrate your graduate's achievements with our Graduate's Delight package. We provide decor, entertainment, and a memorable graduation ceremony."
-        },
-        {
-          "name": "Scholar's Soiree",
-          "shortDescription": "Honor academic excellence with a scholarly celebration.",
-          "longDescription": "Honor academic excellence with our Scholar's Soiree package. It features scholarly decor, awards, and inspiring keynote speakers."
-        },
-        {
-          "name": "Ultimate Graduation Gala",
-          "shortDescription": "Go all out with our ultimate graduation party package.",
-          "longDescription": "Go all out with our Ultimate Graduation Gala package. It includes red carpet entrances, live bands, and a grand graduation ball for a truly memorable celebration."
-        }
-      ]
+      {
+        "name": "Holiday Extravaganza",
+        "packprice": 1500,
+        "longDescription": "Experience holiday magic with our Holiday Extravaganza package. We transform your venue into a winter wonderland with seasonal decor and delights."
+         
     }
-  ]
-  
+    ]
+  },
+  {
+    "id": 5,
+    "event": "Baby Shower Planning",
+    "img": "https://i.ibb.co/bHZ4HSt/beautiful-baby-shower-concept-with-copy-space.jpg",
+    "eventdesc": "At Raf Events, we believe that the anticipation of a new life is a precious moment worth celebrating in style. Our baby shower planning services are dedicated to curating heartwarming and joyous gatherings that honor the expecting parents and their growing family.From whimsical and playful themes to elegant and traditional affairs, we craft baby showers that reflect the personality and preferences of the parents-to-be. Our expert team pays meticulous attention to every detail, from charming decor and delightful games to delectable treats and creative party favors.We understand that a baby shower is more than just a party; it's a gesture of love and support for the parents and a warm welcome to the new addition. With Raf Events, you can trust that your baby shower will be a memorable and heartwarming celebration filled with laughter, love, and cherished moments.Let us create a magical and heartwarming baby shower that captures the excitement and love surrounding this special milestone in your life",
+    "homedesc": "Celebrate the upcoming arrival of your little one with our Baby Shower Planning services.",
+    "startprice": 500,
+    "packages": [
+      {
+        "name": "Joyful Beginnings",
+        "packprice": 500 ,
+        "longDescription": "Our Joyful Beginnings package is perfect for celebrating the arrival of your baby. We provide decor, games, and sweet treats for a memorable baby shower."
+        
+    },
+      {
+        "name": "Themed Baby Bash",
+        "packprice": 750,
+        "longDescription": "Make your baby shower unique with our Themed Baby Bash package. Select from a variety of themes and enjoy customized favors and entertainment."
+          
+    },
+      {
+        "name": "Luxury Baby Shower",
+         "packprice": 1000,
+        "longDescription": "Indulge in luxury with our Luxury Baby Shower package. It includes premium decor, gourmet catering, and spa treatments for the mom-to-be, ensuring an elegant and pampering experience."
+       
+    }
+    ]
+  },
+  {
+    "id": 6,
+    "event": "Graduation Party Planning",
+    "img": "https://i.ibb.co/cyGFQXK/closeup-shot-elegant-blue-chairs-wedding-venue.jpg",
+    "eventdesc": "At Raf Events, we recognize that graduation is a momentous achievement deserving of a remarkable celebration. Our graduation party planning services are dedicated to curating events that honor your hard-earned success and mark the beginning of a new journey.Whether it's a high school graduation, college commencement, or any educational milestone, we specialize in crafting graduation parties that reflect your unique accomplishments and aspirations. From personalized themes and decor to entertainment and gourmet cuisine, we ensure that every detail is tailored to your vision.Our experienced team understands that a graduation party is not just a gathering but a culmination of years of dedication and perseverance. We create an atmosphere where graduates can bask in their achievements while sharing this proud moment with friends and family.With Raf Events, your graduation party becomes a celebration of dreams fulfilled and future endeavors. Let us help you honor your academic accomplishments and embark on the next chapter of your life with a memorable and inspiring event.",
+    "homedesc": "Honor academic achievements and celebrate milestones with our Graduation Party Planning services.",
+    "startprice": 750,
+    "packages": [
+      {
+        "name": "Graduate's Delight",
+        "packprice": 750,
+        "longDescription": "Celebrate your graduate's achievements with our Graduate's Delight package. We provide decor, entertainment, and a memorable graduation ceremony."
+        
+      },
+      {
+        "name": "Scholar's Soiree",
+        "packprice": 1000,
+        "longDescription": "Honor academic excellence with our Scholar's Soiree package. It features scholarly decor, awards, and inspiring keynote speakers."
+        
+    },
+      {
+        "name": "Ultimate Graduation Gala",
+        "packprice": 2000,
+        "longDescription": "Go all out with our Ultimate Graduation Gala package. It includes red carpet entrances, live bands, and a grand graduation ball for a truly memorable celebration."
+        
+      }
+    ]
+  }
+]

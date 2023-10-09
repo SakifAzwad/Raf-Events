@@ -16,6 +16,9 @@ const Home = () => {
         <>
         <div className="relative">
             <img className="w-full h-[700px] brightness-50" src="/public/restaurant-hall-with-tables-decorated-with-tall-vases-with-roses.jpg" alt="" />
+            <div className="absolute left-12 bottom-80  font-extrabold">
+                <h1 className="text-[#efe0ca] text-5xl text-center ">Transforming Dreams into Magical Celebrations <span className="text-7xl">Welcome to</span> <span className="text-[#fe5000] text-7xl">Raf Events</span></h1>
+            </div>
         </div>
         <div className="bg-[#f4ede2]">
             <h1 className="text-center text-5xl font-bold text-[#fe5000] pt-12">Our Services</h1>
