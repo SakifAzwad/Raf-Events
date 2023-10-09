@@ -95,10 +95,10 @@ const Register = () => {
                   className="text-center lg:text-left 
     "
                 >
-                  <h1 className="text-8xl font-extrabold text-[#fe5000]">
+                  <h1 className="lg:text-8xl md:text-6xl text-4xl  font-extrabold text-[#fe5000]">
                     Register now!
                   </h1>
-                  <p className="py-6 text-xl text-[#f7d5a2] font-bold ">
+                  <p className="py-6 lg:text-xl md:text-lg text-base text-[#f7d5a2] font-bold ">
                     Join Raf Events and start planning your memorable
                     celebrations today! Sign up to access exclusive event
                     management tools and make your weddings, birthdays,

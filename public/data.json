@@ -1,0 +1,148 @@
+[
+    {
+      "id": 1,
+      "event": "Wedding Planning",
+      "img":"https://i.ibb.co/bdmfNsX/floral-garland-eucalyptus-pink-flowers-lies-table.jpg",
+      "homedesc":"Experience the wedding of your dreams with our expert Wedding Planning services.",
+       "startprice":2500,
+      "packages": [
+        {
+          "name": "Elegant Essentials",
+            "price":2500,
+          "shortDescription": "Our 'Elegant Weddings' package is designed to turn your wedding day into a timeless and unforgettable celebration of love. We understand that your wedding is one of the most important days of your life, and we're here to ensure that every moment is filled with joy, beauty, and cherished memories.",
+          "longDescription": "Our Elegant Essentials package is designed for couples who want a beautiful and stress-free wedding experience. We handle venue selection, decor, and coordination, ensuring your special day goes off without a hitch."
+        },
+        {
+          "name": "Luxury Romance",
+          "shortDescription": "Experience the epitome of luxury and romance with our 'Luxury Romance' wedding package. Designed for couples who desire nothing but the best, this package is a symphony of opulence, elegance, and personalized service. We understand that your wedding day should be a reflection of your unique love story, and with 'Luxury Romance,' we go above and beyond to make your dreams come true.",
+          "longDescription": "Indulge in luxury with our Luxury Romance package. We create a wedding that reflects your unique style and love story. From custom decor to gourmet catering, every detail is designed to make your day unforgettable."
+        },
+        {
+          "name": "Destination Dreams",
+          "shortDescription": "Turn your dream destination wedding into reality.",
+          "longDescription": "Escape to your dream destination with our Destination Dreams package. Whether it's a beachfront wedding or a mountaintop celebration, we handle all the details, so you can focus on your love and your guests."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "event": "Birthday Party Planning",
+      "img":"https://i.ibb.co/CBf2Fq3/lovely-birthday-concept-with-chocolate-cake.jpg",
+      "homedesc":"Make every birthday unforgettable and full of surprises with our Birthday Party Planning services.",
+      "startprice":500,
+      "packages": [
+        {
+          "name": "Fun Fête",
+          "shortDescription": "Create a fun-filled birthday celebration for all ages.",
+          "longDescription": "Our Fun Fête package is perfect for creating a joyful and entertaining birthday party. We provide exciting games, colorful decor, and entertainment options for both kids and adults."
+        },
+        {
+          "name": "Theme Extravaganza",
+          "shortDescription": "Choose a themed birthday party for a unique experience.",
+          "longDescription": "Make your birthday unforgettable with our Theme Extravaganza package. Select from a wide range of themes, and we'll create a magical world of decorations, costumes, and entertainment."
+        },
+        {
+          "name": "VIP Birthday Bash",
+          "shortDescription": "Elevate the celebration with our VIP package.",
+          "longDescription": "Go all out with our VIP Birthday Bash. Roll out the red carpet, enjoy celebrity-style decor, and treat your guests to exclusive experiences that will make this birthday one to remember."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "event": "Anniversary Celebration",
+      "img":"https://i.ibb.co/KwCnnT1/cheerful-couple-with-sparkler-flirting.jpg",
+      "homedesc":"Commemorate your love and journey together with our Anniversary Celebration Planning services.",
+       "startprice":750,
+      "packages": [
+        {
+          "name": "Intimate Memories",
+          "shortDescription": "Celebrate your love with an intimate anniversary gathering.",
+          "longDescription": "Create cherished memories with our Intimate Memories package. We specialize in crafting romantic and intimate anniversary celebrations with personalized decor and ambiance."
+        },
+        {
+          "name": "Silver Jubilee Spectacular",
+          "shortDescription": "Commemorate 25 years of love with an elegant celebration.",
+          "longDescription": "Celebrate your silver jubilee in style with our Silver Jubilee Spectacular package. It includes elegant decor, live music, and gourmet dining to mark this significant milestone."
+        },
+        {
+          "name": "Golden Anniversary Extravaganza",
+          "shortDescription": "Celebrate your golden anniversary with grandeur.",
+          "longDescription": "For your golden anniversary, choose our extravagant package. Featuring grand decor, top-notch entertainment, and luxury experiences, it's the perfect way to celebrate 50 years of love."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "event": "Holiday Party Planning",
+      "img":"https://i.ibb.co/XF03gY2/women-preparing-festive-table.jpg",
+      "homedesc":"Spread holiday cheer and create lasting memories with our Holiday Party Planning services.",
+      "startprice":500,
+      "packages": [
+        {
+          "name": "Festive Gatherings",
+          "shortDescription": "Host festive holiday gatherings with themed decor.",
+          "longDescription": "Celebrate the holidays with our Festive Gatherings package. We provide themed decor and holiday entertainment for a joyful holiday season."
+        },
+        {
+          "name": "New Year's Eve Spectacular",
+          "shortDescription": "Ring in the New Year with a spectacular event.",
+          "longDescription": "Count down to the New Year with our New Year's Eve Spectacular. Enjoy live music, fireworks, and a night of unforgettable celebrations."
+        },
+        {
+          "name": "Holiday Extravaganza",
+          "shortDescription": "Create holiday magic with winter wonderland decor.",
+          "longDescription": "Experience holiday magic with our Holiday Extravaganza package. We transform your venue into a winter wonderland with seasonal decor and delights."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "event": "Baby Shower Planning",
+      "img":"https://i.ibb.co/bHZ4HSt/beautiful-baby-shower-concept-with-copy-space.jpg",
+      "homedesc":"Celebrate the upcoming arrival of your little one with our Baby Shower Planning services.",
+      "startprice":500,
+      "packages": [
+        {
+          "name": "Joyful Beginnings",
+          "shortDescription": "Celebrate the arrival of your little one with a joyful baby shower.",
+          "longDescription": "Our Joyful Beginnings package is perfect for celebrating the arrival of your baby. We provide decor, games, and sweet treats for a memorable baby shower."
+        },
+        {
+          "name": "Themed Baby Bash",
+          "shortDescription": "Choose a themed baby shower for a unique celebration.",
+          "longDescription": "Make your baby shower unique with our Themed Baby Bash package. Select from a variety of themes and enjoy customized favors and entertainment."
+        },
+        {
+          "name": "Luxury Baby Shower",
+          "shortDescription": "Indulge in luxury with our premium baby shower package.",
+          "longDescription": "Indulge in luxury with our Luxury Baby Shower package. It includes premium decor, gourmet catering, and spa treatments for the mom-to-be, ensuring an elegant and pampering experience."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "event": "Graduation Party Planning",
+      "img":"https://i.ibb.co/cyGFQXK/closeup-shot-elegant-blue-chairs-wedding-venue.jpg",
+      "homedesc":"Honor academic achievements and celebrate milestones with our Graduation Party Planning services.",
+      "startprice":750,
+      "packages": [
+        {
+          "name": "Graduate's Delight",
+          "shortDescription": "Celebrate your graduate's achievements with a delightful party.",
+          "longDescription": "Celebrate your graduate's achievements with our Graduate's Delight package. We provide decor, entertainment, and a memorable graduation ceremony."
+        },
+        {
+          "name": "Scholar's Soiree",
+          "shortDescription": "Honor academic excellence with a scholarly celebration.",
+          "longDescription": "Honor academic excellence with our Scholar's Soiree package. It features scholarly decor, awards, and inspiring keynote speakers."
+        },
+        {
+          "name": "Ultimate Graduation Gala",
+          "shortDescription": "Go all out with our ultimate graduation party package.",
+          "longDescription": "Go all out with our Ultimate Graduation Gala package. It includes red carpet entrances, live bands, and a grand graduation ball for a truly memorable celebration."
+        }
+      ]
+    }
+  ]
+  

@@ -96,12 +96,12 @@ const Navbar = () => {
             ) : (
               <>
                 <Link to="/login">
-                  <button className="btn bg-[#efe0ca]  hover:bg-[#fe5000] hover:text-[#efe0ca] mr-4">
+                  <button className="btn bg-[#efe0ca] text-xs md:text-sm  hover:bg-[#fe5000] hover:text-[#efe0ca] mr-4">
                     Sign IN
                   </button>
                 </Link>
                 <Link to="/register">
-                  <button className="btn bg-[#efe0ca]  hover:bg-[#fe5000] hover:text-[#efe0ca]">
+                  <button className="btn bg-[#efe0ca] text-xs md:text-sm  hover:bg-[#fe5000] hover:text-[#efe0ca]">
                     Register
                   </button>
                 </Link>
