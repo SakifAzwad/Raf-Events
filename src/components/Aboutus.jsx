@@ -1,9 +1,9 @@
 const Aboutus = () => {
   return (
     <div className="relative">
-      <div className="pt-24 h-96 bg-[#001233]">
+      <div className="pt-24  bg-[#001233]">
         <div className="bg-[#efe0ca] w-2/3 mx-auto rounded-2xl p-12">
-          <h1 className="text-base">
+          <h1 className="lg:text-base text-xs">
             Raf Events is your premier event management partner, specializing in
             crafting extraordinary moments. With a commitment to excellence, we
             transform your vision into reality. Our seasoned professionals, from

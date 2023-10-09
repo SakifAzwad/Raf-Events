@@ -8,16 +8,19 @@
     "startprice": 2500,
     "packages": [
       {
+        "pid":1,
         "name": "Elegant Essentials",
         "packprice": 2500,
         "longDescription": "Our Elegant Essentials package is designed for couples who want a beautiful and stress-free wedding experience. We handle venue selection, decor, and coordination, ensuring your special day goes off without a hitch."
       },
       {
+        "pid":2,
         "name": "Luxury Romance",
         "packprice": 5000,
         "longDescription": "Indulge in luxury with our Luxury Romance package. We create a wedding that reflects your unique style and love story. From custom decor to gourmet catering, every detail is designed to make your day unforgettable."
       },
       {
+        "pid":3,
         "name": "Destination Dreams",
         "packprice": 7500,
         "longDescription": "Escape to your dream destination with our Destination Dreams package. Whether it's a beachfront wedding or a mountaintop celebration, we handle all the details, so you can focus on your love and your guests."
@@ -33,16 +36,19 @@
     "startprice": 500,
     "packages": [
       {
+        "pid":4,
         "name": "Fun Fête",
         "packprice": 500,
         "longDescription": "Our Fun Fête package is perfect for creating a joyful and entertaining birthday party. We provide exciting games, colorful decor, and entertainment options for both kids and adults."
       },
       {
+        "pid":5,
         "name": "Theme Extravaganza",
         "packprice":750,
         "longDescription": "Make your birthday unforgettable with our Theme Extravaganza package. Select from a wide range of themes, and we'll create a magical world of decorations, costumes, and entertainment."
       },
       {
+        "pid":6,
         "name": "VIP Birthday Bash",
         "packprice": 1000,
         "longDescription": "Go all out with our VIP Birthday Bash. Roll out the red carpet, enjoy celebrity-style decor, and treat your guests to exclusive experiences that will make this birthday one to remember."
@@ -58,16 +64,19 @@
     "startprice": 750,
     "packages": [
       {
+        "pid":7,
         "name": "Intimate Memories",
         "packprice": 750,
         "longDescription": "Create cherished memories with our Intimate Memories package. We specialize in crafting romantic and intimate anniversary celebrations with personalized decor and ambiance."
       },
       {
+        "pid":8,
         "name": "Silver Jubilee Spectacular",
         "packprice": 1500,
         "longDescription": "Celebrate your silver jubilee in style with our Silver Jubilee Spectacular package. It includes elegant decor, live music, and gourmet dining to mark this significant milestone."
       },
       {
+        "pid":9,
         "name": "Golden Anniversary Extravaganza",
         "packprice": 3000,
         "longDescription": "For your golden anniversary, choose our extravagant package. Featuring grand decor, top-notch entertainment, and luxury experiences, it's the perfect way to celebrate 50 years of love."
@@ -83,17 +92,20 @@
     "startprice": 500,
     "packages": [
       {
+        "pid":10,
         "name": "Festive Gatherings",
         "packprice": 500,
         "longDescription": "Celebrate the holidays with our Festive Gatherings package. We provide themed decor and holiday entertainment for a joyful holiday season."
       },
       {
+        "pid":11,
         "name": "New Year's Eve Spectacular",
     "packprice": 1000 ,
         "longDescription": "Count down to the New Year with our New Year's Eve Spectacular. Enjoy live music, fireworks, and a night of unforgettable celebrations."
          
     },
       {
+        "pid":12,
         "name": "Holiday Extravaganza",
         "packprice": 1500,
         "longDescription": "Experience holiday magic with our Holiday Extravaganza package. We transform your venue into a winter wonderland with seasonal decor and delights."
@@ -110,18 +122,21 @@
     "startprice": 500,
     "packages": [
       {
+        "pid":13,
         "name": "Joyful Beginnings",
         "packprice": 500 ,
         "longDescription": "Our Joyful Beginnings package is perfect for celebrating the arrival of your baby. We provide decor, games, and sweet treats for a memorable baby shower."
         
     },
       {
+        "pid":14,
         "name": "Themed Baby Bash",
         "packprice": 750,
         "longDescription": "Make your baby shower unique with our Themed Baby Bash package. Select from a variety of themes and enjoy customized favors and entertainment."
           
     },
       {
+        "pid":15,
         "name": "Luxury Baby Shower",
          "packprice": 1000,
         "longDescription": "Indulge in luxury with our Luxury Baby Shower package. It includes premium decor, gourmet catering, and spa treatments for the mom-to-be, ensuring an elegant and pampering experience."
@@ -138,18 +153,21 @@
     "startprice": 750,
     "packages": [
       {
+        "pid":16,
         "name": "Graduate's Delight",
         "packprice": 750,
         "longDescription": "Celebrate your graduate's achievements with our Graduate's Delight package. We provide decor, entertainment, and a memorable graduation ceremony."
         
       },
       {
+        "pid":17,
         "name": "Scholar's Soiree",
         "packprice": 1000,
         "longDescription": "Honor academic excellence with our Scholar's Soiree package. It features scholarly decor, awards, and inspiring keynote speakers."
         
     },
       {
+        "pid":18,
         "name": "Ultimate Graduation Gala",
         "packprice": 2000,
         "longDescription": "Go all out with our Ultimate Graduation Gala package. It includes red carpet entrances, live bands, and a grand graduation ball for a truly memorable celebration."

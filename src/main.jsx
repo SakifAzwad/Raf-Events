@@ -12,11 +12,14 @@ import Login from "./components/Login";
 import Register from "./components/Register";
 import AuthProv from "./components/Provider/AuthProv";
 import PrivateRoute from "./Private/PrivateRoute";
+import ErrorPage from "./components/ErrorPage";
+import Payment from "./components/Payment";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement:<ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",
@@ -42,6 +45,10 @@ const router = createBrowserRouter([
       {
         path:'/register',
         element:<Register></Register>
+      },
+      {
+        path:'/payment',
+        element:<PrivateRoute><Payment></Payment></PrivateRoute>
       }
     ],
   },

@@ -15,9 +15,9 @@ const Home = () => {
     return (
         <>
         <div className="relative">
-            <img className="w-full h-[700px] brightness-50" src="/public/restaurant-hall-with-tables-decorated-with-tall-vases-with-roses.jpg" alt="" />
-            <div className="absolute left-12 bottom-80  font-extrabold">
-                <h1 className="text-[#efe0ca] text-5xl text-center ">Transforming Dreams into Magical Celebrations <span className="text-7xl">Welcome to</span> <span className="text-[#fe5000] text-7xl">Raf Events</span></h1>
+            <img className="w-full h-[700px] brightness-50" src="https://i.ibb.co/BP04PL5/restaurant-hall-with-tables-decorated-with-tall-vases-with-roses.jpg" alt="" />
+            <div className="absolute lg:left-12 bottom-80  font-extrabold">
+                <h1 className="text-[#efe0ca] lg:text-5xl text-center ">Transforming Dreams into Magical Celebrations <span className="lg:text-7xl">Welcome to</span> <span className="text-[#fe5000] lg:text-7xl">Raf Events</span></h1>
             </div>
         </div>
         <div className="bg-[#f4ede2]">
