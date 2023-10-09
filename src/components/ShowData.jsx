@@ -4,7 +4,7 @@ const ShowData = ({data}) => {
     const {event,img,homedesc,startprice}=data;
     return (
         <div>
-            <div className="card lg:card-side bg-[#001233] h-96 md:h-72 shadow-xl">
+            <div data-aos="flip-up" className="card lg:card-side bg-[#001233] h-96 md:h-72 shadow-xl">
   <figure><img className="h-full w-full" src={img}/></figure>
   <div className="card-body md:w-11/12">
     <h2 className="card-title text-[#efe0ca] font-extraboldbold text-lg">{event}</h2>

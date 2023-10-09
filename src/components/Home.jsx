@@ -1,12 +1,15 @@
 import Data from "./Data";
 import Member from "./Member";
+import ReviewSection from "./ReviewSection";
 import useGetData from "./useGetData";
 import useMemberData from "./useMemberData";
+import useRating from "./useRating";
 
 const Home = () => {
     
     const [datas]=useGetData();
     const [members]=useMemberData();
+    const [reviews]=useRating();
     
 
     return (
@@ -25,6 +28,12 @@ const Home = () => {
         </div>
         <div>
             <Member members={members}></Member>
+        </div>
+        <div  className="bg-[#f4ede2]">
+            <h1 className="text-center text-5xl font-bold text-[#fe5000] pt-4">Customer Reviews</h1>
+        </div>
+        <div >
+            <ReviewSection reviews={reviews}></ReviewSection>
         </div>
         </>
         

@@ -6,7 +6,7 @@ const ShowMem = ({member}) => {
 
     const {name,img,position}=member;
     return (
-        <div className="border-12 rounded-3xl border-red-800 card w-42 glass">
+        <div data-aos="flip-right" className="border-12 rounded-3xl border-red-800 card w-42 glass">
   <figure><img src={img} /></figure>
   <div className="card-body">
     <h2 className="text-center font-extrabold text-2xl">{name}</h2>

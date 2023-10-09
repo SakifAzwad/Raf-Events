@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "name": "Jessica Smith",
+      "location": "New York, NY",
+      "rate": 5,
+      "comment": "Raf Events made my wedding day absolutely magical. From the stunning decor to the flawless coordination, they exceeded my expectations!"
+    },
+    {
+      "id": 2,
+      "name": "John Johnson",
+      "location": "Los Angeles, CA",
+      "rate": 4,
+      "comment": "We hired Raf Events for our corporate event, and they delivered a seamless experience. Their attention to detail and professionalism were outstanding."
+    },
+    {
+      "id": 3,
+      "name": "Anna Davis",
+      "location": "Chicago, IL",
+      "rate": 5,
+      "comment": "Emily and her team at Raf Events made my baby shower a joyous occasion. The creative decorations and friendly service made it a day to remember."
+    },
+    {
+        "id": 4,
+        "name": "Sophie Anderson",
+        "location": "Miami, FL",
+        "rate": 5,
+        "comment": "Raf Events exceeded our expectations with their attention to detail and creativity. Our wedding was truly magical thanks to their expertise."
+      },
+      {
+        "id": 5,
+        "name": "Robert Davis",
+        "location": "San Francisco, CA",
+        "rate": 4,
+        "comment": "We hired Raf Events for our corporate retreat, and they did an exceptional job. From team-building activities to evening receptions, everything was seamless."
+      },
+      {
+        "id": 6,
+        "name": "Ella Ramirez",
+        "location": "Austin, TX",
+        "rate": 5,
+        "comment": "Emily and her team made my baby shower a joyous celebration. The decor was stunning, and their professionalism made the event stress-free."
+      }
+  ]
+  
