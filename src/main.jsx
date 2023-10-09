@@ -11,6 +11,7 @@ import Myevents from "./components/Myevents";
 import Login from "./components/Login";
 import Register from "./components/Register";
 import AuthProv from "./components/Provider/AuthProv";
+import PrivateRoute from "./Private/PrivateRoute";
 
 const router = createBrowserRouter([
   {
@@ -23,11 +24,11 @@ const router = createBrowserRouter([
       },
       {
         path:'/events',
-        element:<Events></Events>
+        element:<PrivateRoute><Events></Events></PrivateRoute>
       },
       {
         path:'/myevents',
-        element:<Myevents></Myevents>
+        element:<PrivateRoute><Myevents></Myevents></PrivateRoute>
       },
       {
         path:'/aboutus',
