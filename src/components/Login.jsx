@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { AuthCon } from "./Provider/AuthProv";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import swal from 'sweetalert';
@@ -8,6 +8,7 @@ const Login = () => {
   const {signIn,signInWithGoogle}=useContext(AuthCon);
   const navigate = useNavigate();
   const location = useLocation();
+  const [registerError, setRegisterError] = useState("");
 
   const autolog = () =>
   {
@@ -18,7 +19,10 @@ const Login = () => {
       swal(`Welcome Back ${p}!`,`You've successfully logged in to Raf Events.`, "success");
       navigate(location?.state ? location.state : '/');
     })
-    .catch()
+    .catch(error=>
+      {
+        setRegisterError(error.message);
+      })
   }
 
   const hanlogin=e=>
@@ -35,7 +39,11 @@ const Login = () => {
           swal(`Welcome Back ${p}!`,`You've successfully logged in to Raf Events.`, "success");
           navigate(location?.state ? location.state : '/');
         })
-      .catch()
+      .catch(error=>
+        {
+          console.log(error.code);
+          setRegisterError(error.message);
+        })
       
       e.target.email.value="";
       e.target.password.value="";
@@ -122,6 +130,9 @@ const Login = () => {
                         <span className="text-[#EA4335]">E</span>
                       </button>
                     </div>
+                    {registerError && (
+                        <p className="text-center  pt-4  text-red-700">Invalid Email or Password</p>
+                  )}
                     <p className="text-center pt-4  text-[#efe0ca]">
                     Do not have an account?{"  "} 
                     <Link className="text-[#fe5000] font-bold" to="/register">

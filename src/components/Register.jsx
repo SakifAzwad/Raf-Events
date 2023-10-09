@@ -1,14 +1,25 @@
 /* eslint-disable no-unused-vars */
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { AuthCon } from "./Provider/AuthProv";
 import { updateProfile } from "firebase/auth";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import swal from 'sweetalert';
+import swal from "sweetalert";
+
 
 const Register = () => {
   const { createUser } = useContext(AuthCon);
   const navigate = useNavigate();
   const location1 = useLocation();
+  const [registerError, setRegisterError] = useState("");
+
+  const sweeterr=()=>
+  {
+        swal(
+        `Welcome`,
+        `You've successfully registered to Raf Events.`,
+        "success"
+      );
+  }
 
   const hanreg = (e) => {
     e.preventDefault();
@@ -18,6 +29,21 @@ const Register = () => {
     const email = form.get("email");
     const password = form.get("password");
 
+    if (password.length < 6) {
+      setRegisterError("Password must be at least 6 characters long.");
+      return;
+    }
+    if (!/[A-Z]/.test(password)) {
+      setRegisterError("Password must include at least one uppercase letter.");
+      return;
+    }
+    if (!/[@$!%*?&]/.test(password)) {
+      setRegisterError(
+        "Password must include at least one special character (e.g., @$!%*?&)."
+      );
+      return;
+    }
+
     createUser(email, password)
       .then((result) => {
         updateProfile(result.user, {
@@ -25,18 +51,25 @@ const Register = () => {
           photoURL: URL,
         })
           .then(() => {
-            const p=result.user.displayName;
-            
-            swal(`Welcome ${p}!`,`You've successfully registered to Raf Events.`, "success");
-          
+            const p = result.user.displayName;
+
+            swal(
+              `Welcome ${p}!`,
+              `You've successfully registered to Raf Events.`,
+              "success"
+            );
           })
-          .catch((error) => {});
-          setTimeout(() => {
-            window.location.reload();
-          }, 3000);
+          .catch((error) => {
+            setRegisterError(error.message);
+          });
+        setTimeout(() => {
+          window.location.reload();
+        }, 2500);
         navigate(location1?.state ? location1.state : "/");
       })
-      .catch();
+      .catch((error) => {
+        setRegisterError(error.message);
+      });
 
     e.target.name.value = "";
     e.target.photo.value = "";
@@ -132,6 +165,9 @@ const Register = () => {
                       </button>
                     </div>
                   </form>
+                  {registerError && (
+                        <p className="px-8 pb-4  text-red-700">{registerError}</p>
+                  )}
                   <p className="text-center pb-8 text-[#efe0ca]">
                     Already have an account?{" "}
                     <Link className="text-[#fe5000] font-bold" to="/login">
